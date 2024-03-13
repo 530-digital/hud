@@ -36,7 +36,6 @@ body {
     font-size: 4rem;
     font-weight: 200;
     margin-top: 10vh;
-    line-height: 16rem;
     color: lightgray;
   }
   .logo {
@@ -80,10 +79,10 @@ body {
   }
   .day-month {
     font-family: arial;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 200;
-    margin-top: 10vh;
     color: lightgray;
+    text-align: center;
   }
   .logo {
     width: 50%;
@@ -162,6 +161,6 @@ body {
   .day-month {
     font-size: 6rem;
     font-weight: 300;
-    margin-top: -52vh;
+    margin-top: -50vh;
   }
 }
