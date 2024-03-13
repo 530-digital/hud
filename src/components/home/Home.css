@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+  font-family: "Ultra", sans-serif;
+}
+
+@media (min-width: 400px) {
+  .time,
+  .day {
+    display: flex;
+    align-items: center;
+  }
+  .time {
+    height: 90vh;
+  }
+  .hours {
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: right;
+  }
+  .seconds {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    margin-top: -2.5rem;
+    text-align: left;
+  }
+  .ampm {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    font-weight: 300;
+  }
+  .day-month {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: -45vh;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .time,
+  .day {
+    display: flex;
+    align-items: center;
+  }
+  .time {
+    height: 0vh;
+  }
+  .hours {
+    font-size: 14rem;
+    font-weight: 300;
+    text-align: right;
+    color: #2c3e4f;
+  }
+  .seconds {
+    font-size: 5.5rem;
+    font-weight: 200;
+    margin-top: -4rem;
+    color: #c1272d;
+  }
+  .ampm {
+    font-size: 6.5rem;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    color: #2c3e4f;
+  }
+  .day-month {
+    font-family: arial;
+    font-size: 6rem;
+    font-weight: 200;
+    margin-top: 10vh;
+    color: lightgray;
+  }
+  .logo {
+    width: 50%;
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .time,
+  .day {
+    display: flex;
+    align-items: center;
+  }
+  .time {
+    height: 90vh;
+  }
+  .hours {
+    font-size: 16rem;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 0rem;
+  }
+  .ampm {
+    font-size: 8.5rem;
+    font-weight: 400;
+    margin-top: 3rem;
+  }
+  .seconds {
+    font-size: 7.5rem;
+    font-weight: 300;
+    margin-top: -5rem;
+    text-align: left;
+  }
+  .day-month {
+    font-size: 6rem;
+    font-weight: 300;
+    margin-top: -52vh;
+  }
+}

@@ -1,8 +1,17 @@
-# React + Vite
+# 530Digital HUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Heads Up Display (HUD) that 530Digital uses on our monitors when nothing else is being displayed.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Clock
+
+A simple clock that shows the time, day and date.
+
+![Image Description](src/images/screenshot.png)
+
+## Getting Started
+
+- Clone this repo
+- run `yarn install && yarn build && yarn dev`
+- visit `localhost:4000`

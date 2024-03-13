@@ -1,4 +1,19 @@
-# Office Keeper API Docs
+# Development Docs
 
-- [Public Docs](public/README.md)
-- [Development Docs](development/README.md)
+Directories case: `kebab-case`
+Files case: `PascalCase`
+Function case `camelCase`
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the tests](#running-the-tests)
+- [Deployment](#deployment)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Authors](development/Authors.md)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
