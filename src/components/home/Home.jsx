@@ -36,10 +36,10 @@ function Home() {
           </div>
         </div>
         <div className="row time">
-          <div className="col-xl-7 col-lg-8 col-md-6 col-sm-8 hours">
+          <div className="col-xl-7 col-lg-8 col-md-6 col-sm-6 hours">
             {currentDate.hours}
           </div>
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-4">
+          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
             <div className="ampm">{currentDate.ampm}</div>
             <div className="seconds">{currentDate.seconds}</div>
           </div>

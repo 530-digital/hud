@@ -13,5 +13,5 @@ A simple clock that shows the time, day and date.
 ## Getting Started
 
 - Clone this repo
-- run `yarn install && yarn build && yarn dev`
+- run `yarn install && yarn dev`
 - visit `localhost:4000`
